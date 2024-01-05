@@ -337,6 +337,9 @@ background-color: whitesmoke;
 
  /*Screen mediaqueries----------------------------------------------------*/
  @media  screen and (max-width: 768px) {
+  .night .search .initial{
+    color: white;
+  }
   /*SEARCH---------------------------------------------------------------*/
   .search{
     position: relative;
@@ -367,6 +370,7 @@ background-color: whitesmoke;
   bottom: 0;
   right: 0;
   height: 40px;
+  padding: 0 0 0 5px;
   border: 1px solid black;
   border-radius: 10px;
 }
