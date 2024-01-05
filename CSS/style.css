@@ -110,7 +110,8 @@ flex-direction: row;
 .theme {
   --bg-color: #111;
   --main-color: #fefefe;
-  position: relative;
+  position: absolute;
+  left: 63%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,6 +162,7 @@ flex-direction: row;
   transform: translate(3px, 3px);
 }
 /*SEARCH---------------------------------------------------------------*/
+
 .search{
   display: flex;
   position: relative;
@@ -178,7 +180,7 @@ flex-direction: row;
   display: none;
 }
 .searchInput{
-  width: auto;
+  width: 400px;
   height: 40px;
   border: 1px solid black;
   border-radius: 10px;
@@ -336,6 +338,10 @@ background-color: whitesmoke;
   .night .search .initial{
     color: white;
   }
+.theme{
+  position: absolute;
+  left: 320px;
+}
   /*SEARCH---------------------------------------------------------------*/
   .search{
     position: relative;
@@ -362,8 +368,8 @@ background-color: whitesmoke;
   display: flex;
   position: relative;
   top: 0;
-  width: 310px;
-  left: -78px;
+  width: 320px;
+  left: -76px;
   bottom: 0;
   right: 0;
   height: 40px;
@@ -378,7 +384,7 @@ background-color: whitesmoke;
 .search .notPend.active{
   display: flex;
   position: absolute;
-  left: 238px;
+  left: 248px;
   background-color: rgb(160, 160, 160);
   padding: 10px;
   font-size: 25px;
