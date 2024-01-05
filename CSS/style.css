@@ -165,6 +165,7 @@ flex-direction: row;
   display: flex;
   position: relative;
   align-items: center;
+  padding-right: 10px;
 }
 .search .initial{
   position: absolute;
@@ -183,12 +184,7 @@ flex-direction: row;
   border-radius: 10px;
   padding: 0 0 0 40px;
 }
-.btnBuscar{
-  width: 80px;
-  height: 40px;
-  border-radius: 10px;
-  outline: none;
-}
+
 /*NAV MAIN-------------------------------------------------------------*/
 .nav{
   display: flex;
@@ -343,6 +339,7 @@ background-color: whitesmoke;
   /*SEARCH---------------------------------------------------------------*/
   .search{
     position: relative;
+    padding: 0;
   }
 .search .initial{
   display: flex;
