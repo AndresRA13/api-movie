@@ -362,7 +362,7 @@ background-color: whitesmoke;
   display: flex;
   position: relative;
   top: 0;
-  width: 290px;
+  width: 310px;
   left: -78px;
   bottom: 0;
   right: 0;
@@ -377,7 +377,7 @@ background-color: whitesmoke;
 .search .notPend.active{
   display: flex;
   position: absolute;
-  left: 215px;
+  left: 238px;
   background-color: rgb(160, 160, 160);
   padding: 10px;
   font-size: 25px;
