@@ -119,6 +119,7 @@ function night(){
 const inputSearch = document.getElementById('inputBusqueda');
 const btnSearch =  document.querySelector('.initial');
 const btnPend = document.querySelector('.notPend');
+
 btnSearch.addEventListener('click', () =>{
     inputSearch.classList.add('active');
     btnSearch.classList.add('active');
@@ -128,5 +129,4 @@ btnPend.addEventListener('click', () =>{
     inputSearch.classList.remove('active');
     btnSearch.classList.remove('active');
     btnPend.classList.remove('active');
-    btnPend.style.position = 'absolute';
 })
